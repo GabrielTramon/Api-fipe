@@ -28,7 +28,12 @@
     margin-top: 10%;
     border-radius: 20px;
     box-shadow: 0px 0px 5px rgb(83, 83, 83);
-    gap: 10px;
+}
+
+.box select{
+    width: 175px;
+    height: 25px;
+    border-radius: 5px;
 }
 
 #Valor{

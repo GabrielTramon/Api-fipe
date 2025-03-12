@@ -1,8 +1,8 @@
-async function carregarMarcas() {
+async function apiCar() {
     const urlMarca = `https://parallelum.com.br/fipe/api/v1/carros/marcas`
     const marcaSelect = document.getElementById("marca") //ele pega o id do select
     const modeloSelect = document.getElementById("modelo") //ele pega o id do modelo
-    const anoSelect = document.getElementById("modelo") //ele pega o id do modelo
+    const anoSelect = document.getElementById("ano") //ele pega o id do modelo
 
     let codMarca;
     let codModelo;
@@ -59,4 +59,4 @@ async function carregarMarcas() {
 }
 
 
-carregarMarcas()
+apiCar()
