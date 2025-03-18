@@ -2,7 +2,7 @@ async function apiCar() {
     const urlPadrao = `https://parallelum.com.br/fipe/api/v1/carros/marcas`
     const marcaSelect = document.getElementById("marca") //ele pega o id do select
     const modeloSelect = document.getElementById("modelo") //ele pega o id do modelo
-    const anoSelect = document.getElementById("ano") //ele pega o id do modelo
+    const anoSelect = document.getElementById("ano") //ele pega o id do ano
     const valorCarro = document.getElementById("valor")
 
     let codMarca;
@@ -66,8 +66,7 @@ async function apiCar() {
         });
 
     } catch (error) {
-        marcaSelect.innerHTML = "<option value=''>Erro ao carregar marcas</option>"; //inserir erro
-        console.error("Erro ao buscar:", error);
+       console.error("Erro ao buscar:", error);
     }
 }
 
