@@ -62,3 +62,17 @@
     background-color: rgb(131, 20, 20);
     cursor: pointer;
 }
+
+#valor{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 60px;
+}
+
+#valor:hover{
+    color: blueviolet;
+    cursor: pointer;
+    transition: 1s;
+    transform: scale(1,1.1);
+}
